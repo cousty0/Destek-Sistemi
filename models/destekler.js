@@ -1,0 +1,2 @@
+import mongoose from "mongoose";
+export default mongoose.model("destekler", new mongoose.Schema({ UserID: { type: String }, ChannelID: { type: String }, CreatedAt: { type: String }, RemovedAt: { type: String }, RemovedUserID: { type: String }, MessageID: { type: String } }));
